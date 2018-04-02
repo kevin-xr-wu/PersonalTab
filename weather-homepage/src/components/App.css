@@ -1,0 +1,122 @@
+.outer {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.popular-list {
+  padding-top: 20px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item-background {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  padding: 30px;
+}
+
+.popular-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.popular-rank {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  width: 275px;
+  height: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.change {
+  border: none;
+  background: transparent;
+  color: #cccccc;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.change:hover {
+  cursor: pointer;
+}
+
+.dailyRoutine {
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.caption-border {
+  border-top: 1px solid black; 
+}
+
+.thumbnail-header {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 15pt;
+
+}
+
+.thumbnail-item{
+  margin: 15px;
+}
+
+.thumbnail-text{
+  margin-left: 5px; 
+  font-size: 15pt; 
+}
+
+.thumbnail-container {
+  width: 280px; 
+  height: 240px;
+  background-color: #FFF6E8;
+  padding:3px;
+  margin-bottom: 10px; 
+}
+
+.thumbnail-container:hover{
+  cursor: pointer;
+  border: 1pt solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.location-text{
+  color: white;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.add {
+  width:200px;
+  height: 200px;
+}

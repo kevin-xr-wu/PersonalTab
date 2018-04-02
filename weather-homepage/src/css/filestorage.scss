@@ -1,0 +1,156 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,800"; // font
+@import "reset"; 
+@import "variable"; 
+@import "font"; 
+
+.file-storage-title {
+    font-size: 30pt;
+    color: white;
+}
+
+.form {
+    text-align: left;
+    color: white;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+.uploaded-content {
+    color:white;
+    padding-top: 50px;
+}
+
+.uploaded-items {
+    text-decoration: none;
+}
+
+.item-to-upload {
+    float: left; 
+}
+
+.item-name {
+    float: left;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.remove-action {
+    border: 0 none;
+    padding-top: 4px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    background: none;
+    float: right;
+}
+
+.app-form-actions {
+    .app-button {
+      text-align: center;
+      display: block;
+      border: 1px solid ;
+      background: white;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border-style: none;
+      padding: 10px 15px;
+      width: 100px;  
+      position: absolute;
+      left: 0;
+      right: 0;
+      font-weight: 700;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+.app-file-select-zone {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0 0 0;
+    label {
+      display: block;
+      width: 100%;
+      input {
+        position: fixed;
+        top: -9999px;
+      }
+    }
+    .app-upload-description {
+      font-size: 12px;
+      display: block;
+    }
+    .app-upload-icon {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 1600px;
+      max-width: 1600px;
+      height: 80px;
+      max-height:80px;
+      background-color: white;
+      border: 3px solid rgb(38, 111, 172);
+      border-radius: 25px;
+      position: relative;
+      color: grey;
+      padding: 20px; 
+      .app-upload-placeholder{
+        font-size: 15pt;  
+      }
+    }
+}
+
+.app-uploaded-zone {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 40px 0 0 0;
+    label {
+      display: block;
+      width: 100%;
+      input {
+        position: fixed;
+        top: -9999px;
+      }
+    }
+    .app-upload-description {
+      font-size: 12px;
+      display: block;
+    }
+    .app-upload-icon {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 1600px;
+      height: 450px;
+      background-color: white;
+      border: 3px solid rgb(38, 111, 172);
+      border-radius: 25px;
+      position: relative;
+      color: grey;
+      padding: 20px; 
+      .app-upload-placeholder{
+        font-size: 15pt;  
+      }
+    }
+}
+
+.uploaded-item {
+    padding: 10px;
+    float: left;
+}
+
+.uploaded-item-name {
+    font-size: 20pt;
+}
+
+.download-title {
+    width: 300px;  
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15pt;
+}

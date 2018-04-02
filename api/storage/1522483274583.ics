@@ -1,0 +1,36 @@
+
+
+
+
+
+BEGIN:VCALENDAR
+VERSION:2.0
+
+
+
+X-WR-CALNAME:Genius Bar Appointment: iPhone
+
+
+PRODID: Concierge
+X-WR-TIMEZONE;VALUE=TEXT:America/Los_Angeles
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+LOCATION:Apple Brea Mall\n1016C Brea Mall\, Brea\, California\, 92821
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="Apple Brea Mall\n1016C Brea Mall, Brea, California, 92821":geo:33.91587,-117.88659
+DTSTAMP:20180330T075000
+URL;VALUE=URI:http://www.apple.com/retail/breamall
+DTSTART;TZID=America/Los_Angeles:20180330T145000
+
+
+
+SUMMARY:Genius Bar Appointment: iPhone
+
+
+DTEND;TZID=America/Los_Angeles:20180330T150000
+DESCRIPTION:
+UID:http://www.apple.com/retail/breamall20180330T145000
+END:VEVENT
+
+END:VCALENDAR

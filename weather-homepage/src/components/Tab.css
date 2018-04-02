@@ -1,0 +1,127 @@
+.App {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+
+.tab-list {
+    list-style-type: none;
+    display: inline;
+    padding: 40px;
+  }
+  
+  .tab-content-background {
+    background-image: url('../images/ultra_wide_wallpaper_2_60.jpg');
+    background-size: 'cover';   
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+  }
+  
+  .tab2-content-background {
+    background-image: url('../images/wallpaper.jpg');
+    background-size: 'cover';   
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+  }
+ 
+  .tab3-content-background {
+    background-image: url('../images/phuket_wallpaper2.jpg');
+    background-size: 'cover';   
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+  }
+
+  .tab-content-spacing {
+    background-color: rgba(0, 0, 0, 0.6);    
+    padding-top:40px;
+    background-size: 'cover';   
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0px;
+    overflow-y: auto;    
+  }
+
+  .tab-title-design {
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  
+  .tab-title-label:hover {
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;  
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* border-bottom: 2pt solid rgba(255, 255, 255, 0.82); */
+  }
+  
+  .tab-title-label {
+    color: rgba(255, 255, 255, 0.82);  
+    text-decoration: none;
+    border-bottom: 0pt;
+  }
+  
+  /* Hover.css library */
+  .hvr-grow {
+    padding-top: 20px;  
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.7s;
+    transition-property: transform;
+  }
+  
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
+  
+  .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.82);
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+  
