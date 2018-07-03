@@ -157,44 +157,6 @@ class Thumbnail extends React.Component {
             </ul>
           </a>
         </li>
-        <li className='thumbnail-item' className='thumbnail-container'>
-          <a href='https://www.reddit.com/r/summonerswar/'>
-            <ul>
-                <div className='thumbnail-header'>
-                  <img
-                    className='icon'
-                    src={require('../images/reddit_favicon.png')}
-                  />
-                    Summoners War
-                </div> 
-                <li>
-                    <img
-                        className='thumbnail'
-                        src={require('../images/sw_thumbnail.PNG')}
-                    />
-                </li>
-            </ul>
-          </a>
-        </li>
-        <li className='thumbnail-item' className='thumbnail-container'>
-          <a href='https://www.messenger.com'>
-            <ul>
-                <div className='thumbnail-header'>
-                  <img
-                    className='icon'
-                    src={require('../images/messenger_icon.png')}
-                  />
-                    Messenger
-                </div> 
-                <li>
-                    <img
-                        className='thumbnail'
-                        src={require('../images/messenger_thumbnail.png')}
-                    />
-                </li>
-            </ul>
-          </a>
-        </li>
         {/* <AddThumbnail onSelect={this.handleAdd}/>                                         */}
       </ul>
     </div>
